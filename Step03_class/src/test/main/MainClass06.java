@@ -12,7 +12,7 @@ public class MainClass06 {
 	public static void main(String[] args) {
 		// CarFactory 객체를 이용해서 Car객체의 참조값을 얻어와서
 		CarFactory cf=new CarFactory();
-		Car car=cf.getCar();  // Car데이터타입인 CarFactory의 getCar 메소드 불러오기
+		Car car=cf.getCar();  // CarFactory의 getCar 메소드 불러오기 (데이터타입은 Car)
 		
 		// 그 객체에 차의 이름을 넣고
 		car.name="붕붕이";
